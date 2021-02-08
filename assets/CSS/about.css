@@ -1,0 +1,26 @@
+.gap {
+    padding: 20px;
+}
+
+.gap h4 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.gap h1 {
+    text-align: center;
+    color: #74be43;
+}
+
+.about-1 {
+
+    padding: 3% 3%;
+}
+
+.about-icon {
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 16px;
+}
