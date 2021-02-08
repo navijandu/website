@@ -52,10 +52,28 @@ button:hover {
     transform: translateX(-100%);
 }
 
+.sec-c {
+    opacity: 0;
+}
+
+.sec-count-appear {
+    animation: fadein 1s ease-in;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 .dekho {
 
-    animation: animateleft 2s;
+    animation: animateleft 2s ease;
 }
 
 
@@ -167,12 +185,14 @@ button:hover {
     border-radius: 91%;
 }
 
-/*Modal size */
+
 /*Modal size */
 .modal-dialog {
     max-width: 800px;
     padding: 0;
 }
+
+.close {}
 
 /* Modal Header */
 
