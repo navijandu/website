@@ -4,6 +4,7 @@ $(document).ready(function () {
         console.log(height)
         if (height > 400) {
             $(".sec-img").addClass("dekho")
+            $(".sec-img").removeClass("sec")
         }
     });
 });
