@@ -7,6 +7,7 @@
 
 body {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .bl ul li:hover {
@@ -46,6 +47,27 @@ button:hover {
     font-size: 52px;
     font-weight: 700;
 }
+
+.sec-img {
+    transform: translateX(-100%);
+}
+
+.dekho {
+
+    animation: animateleft 2s;
+}
+
+
+@keyframes animateleft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 
 .section-2 {
     opacity: 0.5;
@@ -209,7 +231,6 @@ button:hover {
     padding: 50px 25px;
     border-radius: 3%;
     width: 50%;
-
     border: 1px solid green;
     animation: animatetop 2s;
 }
