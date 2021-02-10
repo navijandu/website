@@ -99,9 +99,9 @@ button:hover {
 }
 
 .icon {
-
+ 
     padding: 15px;
-    display: gri d;
+    display: grid;
     justify-content: center;
     justify-items: center;
 }

@@ -1,0 +1,50 @@
+.center {
+    background-color: rgba(240, 240, 240, 100);
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pic {
+    padding: 25px 25px;
+}
+
+.pic h2,
+h6 {
+    font-weight: 100;
+    margin-left: 8%;
+}
+
+.pic-1 {
+    width: 100%;
+    padding: 35px 40px;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #807f7f;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.p-1 {
+    width: 70%;
+}
+
+.p-2 {
+    color: white;
+    width: 70%;
+}
+
+.line {
+    content: '';
+    margin-top: 12px;
+    width: 60%;
+    height: 1px;
+    background: black;
+    opacity: 0.3;
+}
