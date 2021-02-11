@@ -99,7 +99,7 @@ button:hover {
 }
 
 .icon {
- 
+
     padding: 15px;
     display: grid;
     justify-content: center;
@@ -303,7 +303,27 @@ button:hover {
 }
 
 .footer {
-    padding: 2%;
-    margin-top: 2%;
-    box-shadow: 0px 0px 6px 1px;
+    background-color: #807f7f;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.p-1 {
+    width: 70%;
+}
+
+.p-2 {
+    color: white;
+    width: 70%;
+}
+
+.line {
+    content: '';
+    margin-top: 12px;
+    width: 70%;
+    height: 1px;
+    background: black;
+    opacity: 0.3;
 }
