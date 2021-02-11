@@ -45,7 +45,15 @@
     width: 40%;
 }
 
-#gf {
+.gap {
+    align-items: center;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#txt-center {
     height: 100%;
     margin: auto;
     width: 80%;

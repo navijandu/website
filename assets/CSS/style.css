@@ -11,16 +11,21 @@ body {
 }
 
 .bl ul li:hover {
-    transition: transform 250ms;
-    background-color: #94838359;
-    border-radius: 2%;
+    transition: 250ms ease;
+    background-color: #74be43;
+    border-radius: 6%;
     font-weight: 600;
     font-size: 16px;
 
 }
 
-.bl {
+.bl-visible {
     background-color: #86717173;
+    color: red;
+}
+
+.bl-color {
+    color: red;
 }
 
 button:hover {
@@ -57,9 +62,11 @@ button:hover {
 }
 
 .sec-count-appear {
-    animation: fadein 1s ease-in;
+    animation: fadein 2s ease-in;
 
 }
+
+
 
 @keyframes fadein {
     from {
@@ -69,6 +76,14 @@ button:hover {
     to {
         opacity: 1;
     }
+}
+
+.hide {
+    transform: translateX(-100%);
+}
+
+.hideright {
+    transform: translateX(200%);
 }
 
 .dekho {
@@ -87,6 +102,72 @@ button:hover {
     }
 }
 
+.fromright {
+    animation: animateright 2s ease;
+}
+
+@keyframes animateright {
+    from {
+        transform: translateX(200%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.leftimg2 {
+    transform: translateX(-100%);
+}
+
+.hideright2 {
+    transform: translateX(200%);
+}
+
+#center {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #74be43;
+    font-weight: 700;
+    font-size: 5vw;
+
+    text-align: center;
+    width: 100%;
+}
+
+#center h6 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    ;
+    font-weight: 100;
+    font-size: 2vw;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+
+#center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    ;
+    font-weight: 700;
+    font-size: 6vw;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
 
 .section-2 {
     opacity: 0.5;
@@ -106,9 +187,7 @@ button:hover {
     justify-items: center;
 }
 
-.hide {
-    transform: translateX(-100%);
-}
+
 
 .section-4 {
 
@@ -311,7 +390,14 @@ button:hover {
 }
 
 .p-1 {
+    text-align: center;
     width: 70%;
+    cursor: pointer;
+}
+
+.p-1 i:hover {
+    transform: scale(1.5);
+    transition: 150ms ease-in;
 }
 
 .p-2 {
