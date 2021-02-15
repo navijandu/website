@@ -28,4 +28,15 @@ $(document).ready(function () {
             $(".rightimg2").removeClass("hideright2")
         }
     });
+
+
+    $('.your-class').slick({
+        centerMode: true,
+        slidesToShow: 3,
+        dots: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+    });
+
 });
