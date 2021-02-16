@@ -243,13 +243,13 @@ button:hover {
     font-family: "Avenir Next", Montserrat, sans-serif;
     margin: 0px 0px 0px 5px;
     color: #fff;
-    font-size: 1.875rem;
+    font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: 500;
+    font-weight: 400;
     opacity: 0;
     width: 86%;
     height: 92%;
-    transition: 1s;
+    transition: 500ms;
 }
 
 .left-top:hover {
@@ -613,4 +613,8 @@ button:hover {
 .shadow:hover {
     transition: 500ms ease;
     transform: scale(1.1);
+}
+
+.page-terms-text {
+    color: #807f7f;
 }
