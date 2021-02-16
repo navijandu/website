@@ -587,7 +587,7 @@ button:hover {
 }
 
 #right input {
-    height: 40px;
+    height: 10%;
     width: 25%;
     position: absolute;
     top: 63%;
