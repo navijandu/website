@@ -8,7 +8,7 @@ $(document).ready(function () {
             $(".bl ul li").addClass("bl-color")
         } else {
             $("bl").removeClass("bl-visible")
-        }
+        };
         if (height > 200) {
             $(".sec-img").addClass("dekho")
             $(".sec-img").removeClass("sec");
