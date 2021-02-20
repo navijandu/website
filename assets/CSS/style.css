@@ -147,7 +147,45 @@ button:hover {
     transform: translateX(200%);
 }
 
-#center {
+.h-video {
+    position: relative;
+    height: 600px;
+}
+
+.h-video video {
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    object-fit: cover;
+}
+
+.h-video .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    ;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+
+}
+
+.h-video .text h5 {
+    font-size: 5vw;
+    font-weight: 900 bolder;
+}
+
+.h-video .text p {
+    font-size: 1.5vw;
+}
+
+
+.hero .text #center {
     width: 100%;
     height: 100%;
     background-color: black;
